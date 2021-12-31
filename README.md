@@ -1,4 +1,4 @@
-# Package Viewer
+# Packet Viewer
 ## Homework description
 Please write a packet viewer program with the following functions:
 It can read existed `pcap` file, and display for each packet in the file(one line for a packet):
