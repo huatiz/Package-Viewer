@@ -106,6 +106,7 @@ void dump_tcp(const u_char *content) {
 
     return;
 }
+
 void dump_udp(const u_char *content) {
     struct ip *ip = (struct ip *)(content + ETHER_HDR_LEN);
     struct udphdr *udp = (struct udphdr *)(content + ETHER_HDR_LEN + (ip->ip_hl << 2));
